@@ -13,7 +13,7 @@ html {
 
 html {
   /* stylelint-disable-line */
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5; }
 
@@ -142,7 +142,7 @@ footer {
 
 .heading {
   width: 100%;
-  font-family: Merriweather, georgia, serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 2rem;
   border: 0; }
   @media (min-width: 1200px) {
@@ -153,6 +153,8 @@ footer {
     font-size: 3rem; }
   .heading--two {
     font-size: 1.5rem; }
+	.heading--three {
+    font-size: 1rem; }
 
 .row {
   display: flex;
