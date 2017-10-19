@@ -1,0 +1,33 @@
+.bgPicAbout {
+  background: transparent url(gogn/bg-subpage.jpg) no-repeat fixed 0% 100%;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.title {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+}
+
+.aboutRow {
+	margin-bottom: 20px;
+}
+
+.midTextAreaLeft {
+	max-width: 40vw;
+	margin: auto;
+	margin-left: 0;
+}
+
+.midTextAreaRight {
+	margin: auto 0;
+}
+
+.quote {
+	font-size: 1.5em;
+	font-style: italic;
+	padding-bottom: 20px;
+}

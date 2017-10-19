@@ -23,9 +23,12 @@ img {
 
 main {
   /* stylelint-disable-line */
-  max-width: 1200px;
   margin: 0 auto;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+	
 	
 header {
 	position: absolute;
