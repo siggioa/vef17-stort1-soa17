@@ -26,6 +26,32 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   overflow-x: hidden; }
+	
+header {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0,0,0, 0.8);
+	color: white;
+}
+
+.compTag {
+	padding-left: 10px;
+	max-width: 100px;
+	display: inline-block;
+	float: left;
+	transform: translateY(50%);
+}
+
+nav {
+	max-width: 150px;
+	display: inline-block;
+	float: right;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
   
 .bgPic {
   background: transparent url(gogn/bg.jpg) no-repeat fixed 50% 50%;
@@ -49,6 +75,12 @@ main {
 	padding: 10px;
 	border: none;
 	border-radius: 2px;
+}
+
+.menuBut {
+	margin: 10px;
+	font-size: 1em;
+	padding: 5px;
 }
 
 .but2 {
