@@ -67,6 +67,11 @@ a {
   position: relative;
   text-align: center;
   top: 40vh;
+	animation: fadein 4s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .button {
