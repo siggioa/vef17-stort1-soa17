@@ -167,7 +167,6 @@ footer {
 	margin-left: 50px;
 	padding-bottom: 40px;
 }
-
 @media (max-width: 400px) {
     .footerLeft {
 		margin-right: 15px; }
