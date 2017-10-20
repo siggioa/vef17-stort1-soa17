@@ -142,6 +142,7 @@ a {
 }
 
 footer {
+	display: block;
 	padding-top: 20px;
 	color: white;
 	text-align: center;
@@ -149,19 +150,32 @@ footer {
 }
 
 .footerLeft {
+	vertical-align: top;
 	display: inline-block;
-	max-width: 200px;
-	margin-left: 50px;
 	margin-right: 50px;
 	padding-bottom: 40px;
 }
 
 .footerRight {
+	vertical-align: top;
 	display: inline-block;
-	max-width: 200px;
 	margin-left: 50px;
-	margin-right: 50px;
 	padding-bottom: 40px;
+}
+
+@media (max-width: 400px) {
+    .footerLeft {
+		margin-right: 15px; }
+		.footerRight {
+		margin-left: 15px; }
+}
+@media (max-width: 310px) {
+    .footerLeft {
+		margin-right: 0; 
+		width: 100%;}
+		.footerRight {
+		margin-left: 0;
+		width: 100%; }
 }
 
 .footerBot {
