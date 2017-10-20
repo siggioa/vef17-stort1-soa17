@@ -189,14 +189,16 @@ footer {
   .heading--two {
     font-size: 1.5rem; }
 	.heading--three {
-    font-size: 1rem; }
+    font-size: 1rem;
+}
 
 .row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -10px;
   margin-bottom: 120px;
-  margin-left: -10px; }
+  margin-left: -10px;
+}
 
 .col {
   padding-right: 10px;

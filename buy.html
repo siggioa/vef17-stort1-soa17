@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Kaupa</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="otherCSS.css">
+  </head>
+  <body>
+		<header>
+			<div class="compTag">
+				<h3 class="heading heading--three">Fooþjónustan</h3>
+			</div>
+			<nav>
+				<a href="about.html">Um</a>
+				<button class="button menuBut">Kaupa</button>
+			</nav>
+		</header>
+    <main>
+			<div class="grid">
+				<div class="row">
+					<div class="col col-12 bgPicOther">
+						<h1 class=" title heading heading--one">Kaupa</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-12">
+						<form>
+							<div class="grid">
+								<div class="row formRow">
+									<div class="col col-6">
+										<fieldset>
+											<h2>Persónuupplýsingar</h2>
+											<label>Nafn: <br/>
+												<input type="text" name="name" required>
+											</label><br/>
+											<label>Kennitala: <br/>
+												<input type="text" name="kennitala" placeholder="123456-7890" required>
+											</label><br/>
+											Kyn:<br/>
+											<label>
+												<input type="radio" name="gender"> Kona
+											</label><br/>
+											<label>
+												<input type="radio" name="gender"> Karl
+											</label><br/>
+											<label>
+												<input type="radio" name="gender"> Annað 
+											</label><br/>
+											<label>Sími: <br/>
+												<input type="text" name="phone" placeholder="+354 812 3456" required>
+											</label><br/>
+											<label>Heimilisfang: <br/>
+												<input type="text" name="name" required>
+											</label><br/>
+											<label>
+												<input type="checkbox" name="subscribeToMails" checked="checked">Skrá mig á póstlista
+											</label>
+										</fieldset>
+									</div>
+									<div class="col col-6">
+										<fieldset>
+											<h2>Greiðsluupplýsingar</h2><br/>
+											<label>Greiða með: <br/>
+												<select name="paymentOption">
+													<option> Kreditkorti </option> 
+													<option> Millifærslu </option>
+													<option> Reyðufé </option>
+												</select>
+											</label><br/>
+											<label>Nafn á korti: <br/>
+												<input type="text" name="name" required>
+											</label><br/>
+											<label>Kortanúmer: <br/>
+												<input type="text" name="phone" placeholder="5999-9999-9999-9999" required>
+											</label><br/>
+											Gildistími: <br/>
+											<label>Mán:
+												<input type="number" name="monthNumber" min="01" max="12" placeholder="01" required>
+											</label>
+											<label>Ár:
+												<input type="number" name="monthNumber" min="2017" max="2020" placeholder="2017" required>
+											</label>
+										</fieldset>
+									</div>
+								</div>
+							</div>
+							<input class="panta button but2" type="submit" value="Panta">
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="footerLeft">
+				<p>Fooþjónustan</p>
+				<p>123-4567</p>
+			</div>
+			<div class="footerRight">
+				<p>Opið 12-13 alla daga</p>
+				<p>Bargata 1</p>
+				<p>900 Foobar</p>
+			</div>
+			<div class="footerBot">
+				<p>&copy; Fooþjónustan 2017</p>
+			</div>
+		</footer>
+  </body>
+</html>
