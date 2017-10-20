@@ -21,6 +21,11 @@
 	margin: auto;
 	margin-left: 0;
 }
+@media (max-width: 400px) {
+  .midTextAreaLeft {
+		max-width: 100%;
+		margin-bottom: 40px;}
+}
 
 .midTextAreaRight {
 	margin: auto 0;

@@ -39,7 +39,6 @@ header {
 
 .compTag {
 	padding-left: 10px;
-	max-width: 100px;
 	display: inline-block;
 	float: left;
 	transform: translateY(50%);
@@ -85,6 +84,17 @@ a {
 	font-size: 1em;
 	padding: 5px;
 }
+@media (max-width: 400px) {
+  .menuBut {
+    visibility: hidden; }
+}
+
+@media (max-width: 400px) {
+  .adjustAbout {
+		position: absolute;
+    right: 10px;
+		top: 10px;}
+}
 
 .but2 {
 	padding-left: 40px;
@@ -99,17 +109,6 @@ a {
 	width: 15px;
 	height: 15px;
 	margin-right: 5px;
-}
-
-.usefulWrapper {
-	position: relative;
-	height: 100%;
-}
-
-.useful {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .useful p {
@@ -176,6 +175,7 @@ footer {
 
 
 .heading {
+	word-wrap:break-word;
   width: 100%;
   font-family: 'Roboto Slab', serif;
   font-size: 2rem;
@@ -185,11 +185,21 @@ footer {
       padding-right: 0;
       padding-left: 0; } }
   .heading--one {
-    font-size: 3rem; }
+    font-size: 3rem;
+		word-wrap:break-word; }
   .heading--two {
     font-size: 1.5rem; }
 	.heading--three {
     font-size: 1rem;
+}
+@media (max-width: 600px) {
+		.heading--two {
+			font-size: 1.1rem
+		}
+}
+@media (max-width: 400px) {
+    .heading--one {
+		font-size: 2.25rem; }
 }
 
 .row {
@@ -199,31 +209,39 @@ footer {
   margin-bottom: 120px;
   margin-left: -10px;
 }
+@media (max-width: 400px) {
+  .row {
+		margin-bottom: 40px;}
+}
+
 
 .col {
   padding-right: 10px;
   padding-left: 10px; }
   .col-12 {
     width: 100%; }
-  .col-8 {
-    width: 66.66667%; }
   .col-6 {
     width: 50%; }
   .col-4 {
-    width: 33.33333%; }
-  .col-3 {
-    width: 25%; }
-  @media (max-width: 599px) {
-    .col-sm-12 {
-      width: 100%; }
-    .col-sm-6 {
-      width: 50%; }
-    .col-sm-3 {
-      width: 25%; } }
+    width: 33.33333%;
+}
+@media (max-width: 600px) {
+	.col-4 {
+		padding-bottom: 40px;
+		width: 50%;
+		display: inline-block;
+		margin: 0 auto;}
+}
+@media (max-width: 400px) {
+	.col-6 {
+		width: 100%;}
+	.col-4 {
+		width: 100%; }
+}
 
-.offset-2 {
-  margin-left: 16.66667%; }
-@media (max-width: 599px) {
-  .offset-sm-0 {
-    margin-left: 0; } }
-		
+.col-6-special {
+    width: 50%;
+}
+@media (max-width: 600px) {
+	.col-6-special {
+		width: 100%;}
